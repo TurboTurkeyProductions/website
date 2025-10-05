@@ -26,8 +26,8 @@ body {
 } */
 
 .papernote {
-  --paper-dark: #e5c93d;
-  --paper-color: #ffed87;
+  --papernote-dark: #e5c93d;
+  --papernote-color: #ffed87;
 
   position: relative;
   display: flex;
@@ -36,12 +36,12 @@ body {
   min-height: 175px;
   background: linear-gradient(
     135deg,
-    var(--paper-dark),
+    var(--papernote-dark),
     30%,
-    var(--paper-color)
+    var(--papernote-color)
   );
   
-  box-shadow: 3px 3px 2px var(--paper-shadow);
+  box-shadow: 3px 3px 2px var(--papernote-shadow);
   transform: rotate(10deg);
   transform-origin: top left;
 }
@@ -68,7 +68,7 @@ body {
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  background: radial-gradient(var(--paper-shadow), 20%, rgba(201, 191, 141, 0));
+  background: radial-gradient(var(--papernote-shadow), 20%, rgba(201, 191, 141, 0));
 }
 
 .metal {

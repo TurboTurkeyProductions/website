@@ -16,14 +16,14 @@ body {
   flex-direction: column;
 }
 
-//body {
-//  display: flex;
-//  justify-content: center;
-//  padding: 10vmin;
-//  background-color: #c3cde8;
-//  font-family: "Caveat", cursive;
-//  font-size: 2rem;
-//}
+/* body {
+  display: flex;
+  justify-content: center;
+  padding: 10vmin;
+  background-color: #c3cde8;
+  font-family: "Caveat", cursive;
+  font-size: 2rem;
+} */
 
 .papernote {
   --paper-dark: #e5c93d;
